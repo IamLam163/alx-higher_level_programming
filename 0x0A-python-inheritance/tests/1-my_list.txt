@@ -1,15 +1,15 @@
-# ============================
+# ===============================================
 # Unit test Print Sorted List
-# ==================================
+# ===============================================
 
 
 Using ``MyList``
------------------
+----------------
 
-This is an example text file in restructuredtext format.
-First import ``MyList`` form the ``1-my_list`` module:
+This is an example text file in reStructuredText format.
+First import ``MyList`` from the ``1-my_list`` module:
 
->>>MyList = __import__('1-my_list').Mylist
+>>> MyList = __import__('1-my_list').MyList
 
 >>> my_list = MyList()
 
@@ -28,7 +28,7 @@ First import ``MyList`` form the ``1-my_list`` module:
 [1, 2, 2, 2, 2]
 
 >>> my_list.append(10)
->>> my_list.printed_sorted()
+>>> my_list.print_sorted()
 [1, 2, 2, 2, 2, 10]
 
 >>> my_list.append(0)
