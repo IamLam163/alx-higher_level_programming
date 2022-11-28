@@ -1,1 +1,1 @@
-Welcome to JAvascript and Sprint 3.
+Welcome to JAvascript and Sprint 3
