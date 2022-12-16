@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for fetching the status of https://alx-intranet.hbtn.io/status
+Module  for fetching the status of https://alx-intranet.hbtn.io/status
 """
 
 import urllib.request
