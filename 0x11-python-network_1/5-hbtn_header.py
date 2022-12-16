@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """Scrippt takes a URL and sends request and
-displays the value pf X-Request-Id variable"""
+displays the value from response header"""
 
 from sys import argv
-import urllib.request
+import requests
 
 if __name__ == "__main__":
-    req = urllib.request.Request(argv[1])
+    req = requests.get(argv[1])
     print(req.headers.get('X-Request-Id'))
