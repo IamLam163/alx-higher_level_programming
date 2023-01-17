@@ -5,11 +5,11 @@ const url = process.argv[2];
 
 request.get(
   url,
-  function(err, res, body) {
+  function (err, res, body) {
     if (err) console.error(err);
     const todos = JSON.parse(body);
     const output = {};
-    todos.forEach(function(todo, idx) {
+    todos.forEach(function (todo, idx) {
       if (todo.completed) {
         if (todo.userId in output) {
           output[todo.userId]++;
