@@ -1,0 +1,5 @@
+// Select the header element
+let header = $("header");
+
+// update the text color to red
+header.css("color", "#FF0000")
